@@ -1,4 +1,5 @@
 import "./App.css";
+import Nav from "./components/Nav";
 import {
   Hero,
   PopularProducts,
@@ -13,7 +14,7 @@ import {
 const App = () => {
   return (
     <main className="relative">
-      Nav
+      <Nav />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
