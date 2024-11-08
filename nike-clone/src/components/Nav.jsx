@@ -5,8 +5,8 @@ import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="absolute z-10 w-full ">
-      <nav className="flex justify-between items-center  ">
+    <header className="padding-x py-8 absolute z-10 w-full">
+      <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img
             src={headerLogo}
@@ -29,13 +29,7 @@ const Nav = () => {
           ))}
         </ul>
         <div className="hidden max-lg:block">
-          <img
-            src={hamburger}
-            alt="Hamburger"
-            width={25}
-            height={25}
-            className="m-0 w-[129px] h-[29px]"
-          />
+          <img src={hamburger} alt="hamburger icon" width={25} height={25} />
         </div>
       </nav>
     </header>
