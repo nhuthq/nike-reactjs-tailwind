@@ -15,10 +15,10 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="wide:padding-r padding-b">
+      <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="py-12">
+      <section className="padding">
         <PopularProducts />
       </section>
       <section className="padding">

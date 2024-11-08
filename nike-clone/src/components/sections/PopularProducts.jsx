@@ -10,7 +10,7 @@ const PopularProducts = () => {
         <h2 className="text-4xl font-palanquin font-bold">
           Our <span className="text-coral-red">Popupar</span> Products
         </h2>
-        <p className="font-montserrat mt-2 text-slate-gray">
+        <p className="lg:max-w-lg font-montserrat mt-2 text-slate-gray">
           Experience top-notch quality and style with our sought-after
           selections. Discover a world of comfort, design, and value
         </p>
